@@ -46,6 +46,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    padding: 5px 25px;
 }
 
 nav {
@@ -88,7 +89,7 @@ nav ul li:hover::after {
 
 .hero-wrapper {
     display: flex;
-    padding: 15vw 0;
+    padding: 15vw 25px;
     align-items: center;
 }
 
@@ -131,7 +132,7 @@ nav ul li:hover::after {
     display: flex;
     flex-direction: column;
     gap: 35px;
-    padding: 50px;
+    padding: 50px 25px;
 }
 
 .why-top {
@@ -188,7 +189,7 @@ nav ul li:hover::after {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 50px;
+    padding: 50px 25px;
 }
 
 .articles {
@@ -211,7 +212,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 4fr 4fr;
     gap: 20px;
-    padding: 40px 0;
+    padding: 40px 15px;
 }
 
 .footer-left {
